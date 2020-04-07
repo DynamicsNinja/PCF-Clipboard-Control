@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Fic" constructor="ClipboardControl" version="1.0.0" display-name-key="Clipboard Control" description-key="Control that adds a copy to cliboard button to a text field." control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="textField" display-name-key="Text Field" description-key="Text field" of-type-group="strings" usage="bound" required="true" />
+    <property name="isSecure" display-name-key="Show/hide text input" description-key="This option allows you to show all characters in the textbox or replace them with * sign" of-type="Enum" usage="input" required="true" default-value="show">
+        <value name="Show" display-name-key="Show" description-key="Show characters in text input">show</value>
+			  <value name="Hide" display-name-key="Hide" description-key="Hide characters in text input as * sign">hide</value>
+    </property>
+    <type-group name="strings">
+      <type>SingleLine.Text</type>
+      <type>SingleLine.Email</type>
+      <type>SingleLine.URL</type>
+      <type>SingleLine.Phone</type>
+      <type>SingleLine.Ticker</type>
+    </type-group>
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
