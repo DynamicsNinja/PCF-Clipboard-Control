@@ -6,7 +6,7 @@ Control that adds a copy to clipboard button to a single line of text field.
 
 ## Download
 
-[![download](https://user-images.githubusercontent.com/14048382/27844360-c7ea9670-6174-11e7-8658-80d356c1ba8f.png)](https://github.com/DynamicsNinja/PCF-Url-Image-List-Control/releases/latest)
+[![download](https://user-images.githubusercontent.com/14048382/27844360-c7ea9670-6174-11e7-8658-80d356c1ba8f.png)](https://github.com/DynamicsNinja/PCF-Clipboard-Control/releases/latest)
 
 ## Configuration
 
